@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1630957207 source:j:\spbgutbonch\ooplabs\lab1_14\main.cpp
+	<iostream>
+	"Rational.h"
+
+1630957115 source:j:\spbgutbonch\ooplabs\lab1_14\rational.cpp
+	"Rational.h"
+	<iostream>
+	<math.h>
+	<cstring>
+
+1630956829 j:\spbgutbonch\ooplabs\lab1_14\rational.h
+
