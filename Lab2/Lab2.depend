@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1631446343 source:j:\spbgutbonch\ooplabs\lab2\lab2\conectwo.cpp
+	"COneCTwo.h"
+	"iostream"
+
+1631446779 source:j:\spbgutbonch\ooplabs\lab2\lab2\main.cpp
+	<iostream>
+	"COneCTwo.h"
+
+1631446012 j:\spbgutbonch\ooplabs\lab2\lab2\conectwo.h
+	<string>
+
