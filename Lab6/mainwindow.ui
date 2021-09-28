@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEditUpper">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditLower">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>140</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>875</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Инструменты</string>
+    </property>
+    <addaction name="actionreverse_strEdtLower"/>
+    <addaction name="actionreverse_strEdtUpper"/>
+    <addaction name="actionreverseAll"/>
+    <addaction name="actionswap_strEdtLower_strEdtUpper"/>
+    <addaction name="actionconcat_strEdtLower_strEdtUpper"/>
+    <addaction name="actionconcat_strEdtUpper_strEdtLower"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionreverse_strEdtLower"/>
+   <addaction name="actionreverse_strEdtUpper"/>
+   <addaction name="actionreverseAll"/>
+   <addaction name="actionswap_strEdtLower_strEdtUpper"/>
+   <addaction name="actionconcat_strEdtLower_strEdtUpper"/>
+   <addaction name="actionconcat_strEdtUpper_strEdtLower"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionreverse_strEdtLower">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon1_1.png</normaloff>:/rec/icons/icon1_1.png</iconset>
+   </property>
+   <property name="text">
+    <string>reverse(strEdtLower)</string>
+   </property>
+  </action>
+  <action name="actionreverse_strEdtUpper">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon1.png</normaloff>:/rec/icons/icon1.png</iconset>
+   </property>
+   <property name="text">
+    <string>reverse(strEdtUpper)</string>
+   </property>
+  </action>
+  <action name="actionreverseAll">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon2.png</normaloff>:/rec/icons/icon2.png</iconset>
+   </property>
+   <property name="text">
+    <string>reverseAll()</string>
+   </property>
+  </action>
+  <action name="actionswap_strEdtLower_strEdtUpper">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon3.png</normaloff>:/rec/icons/icon3.png</iconset>
+   </property>
+   <property name="text">
+    <string>swap(strEdtLower, strEdtUpper)</string>
+   </property>
+  </action>
+  <action name="actionconcat_strEdtLower_strEdtUpper">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon4.png</normaloff>:/rec/icons/icon4.png</iconset>
+   </property>
+   <property name="text">
+    <string>concat(strEdtLower, strEdtUpper)</string>
+   </property>
+  </action>
+  <action name="actionconcat_strEdtUpper_strEdtLower">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/rec/icons/icon5.png</normaloff>:/rec/icons/icon5.png</iconset>
+   </property>
+   <property name="text">
+    <string>concat(strEdtUpper, strEdtLower)</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>20</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>20</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
