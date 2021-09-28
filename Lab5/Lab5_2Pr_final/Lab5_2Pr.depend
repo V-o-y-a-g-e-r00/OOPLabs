@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1632823226 source:j:\spbgutbonch\ooplabs\lab5\lab5_2pr\main.cpp
+	<iostream>
+	"queue.h"
+
+1632825385 j:\spbgutbonch\ooplabs\lab5\lab5_2pr\queue.h
+	"queue.inl"
+
+1632825337 j:\spbgutbonch\ooplabs\lab5\lab5_2pr\queue.inl
+
